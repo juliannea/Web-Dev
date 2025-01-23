@@ -1,0 +1,14 @@
+#guess-counter {
+  width: 640px;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pokeball-counter {
+  width: 80px;
+}
+
+.grayscale {
+  filter: grayscale(1);
+}

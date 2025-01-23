@@ -1,0 +1,25 @@
+#guess-input {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#guess-input > input {
+  width: 640px;
+  font-size: 3rem;
+  text-transform: lowercase;
+  font-family: "PokemonGBText", sans-serif;
+}
+
+#guess-input > button {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-family: "PokemonGBText", sans-serif;
+  padding: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
